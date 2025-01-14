@@ -23,8 +23,8 @@ var Handlers = map[string]func([]resp.Value) resp.Value{
 	"EXPIRE":  ExpireHandler,
 	"DEL":     Delete,
 	"SETBIT":   SetBit,
-    "GETBIT":   GetBit,
-    "BITCOUNT": BitCount,
+    	"GETBIT":   GetBit,
+    	"BITCOUNT": BitCount,
 }
 
 type Values struct {
